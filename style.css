@@ -74,7 +74,7 @@ font-family: 'Raleway', sans-serif;
     background-color: #d9dade;
 }
 
-}
+
 
 .aboutbg h2{
     font-size:2.4em;
@@ -141,4 +141,22 @@ h4 {
     color: #a19ba6;
     font-size: 0.9em;
    margin-bottom: 30px; 
+}
+
+
+    
+footer{
+    background-image:url(images/footer-bg.jpg);
+    background-size:cover;
+    width:100%;
+background-position: center center;
+    
+}
+
+
+.footer-content{
+    
+    margin-top: 30px;
+        margin-bottom:30px;
+    color:white;
 }
