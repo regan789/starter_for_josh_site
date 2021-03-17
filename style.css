@@ -1,6 +1,17 @@
+/*   
+Theme Name: Josh's Wordpress Site
+Theme URI: http://joshwhitkin.com
+Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own.
+Author: Me
+Author URI: http://joshwhitkin.com
+Version: 1
+*/ 
+
+
+
 body{
 font-size:16px;
-font-family: arial, sans-serif;
+font-family: Ariel, sans-serif;
 }
 
 .navbar{
@@ -57,4 +68,77 @@ color:darkorange;
     text-align:right;
 padding-bottom: 10%; /* use a percentage so that we have a variable padding at the bottom – the children within the div should control the height of divs*/
 font-family: 'Raleway', sans-serif;
+}
+
+.aboutbg{ 
+    background-color: #d9dade;
+}
+
+}
+
+.aboutbg h2{
+    font-size:2.4em;
+    font-family: 'Raleway', sans-serif;
+     font-weight:800;
+}
+
+.particle {
+
+    text-align: right;
+    margin-right: 150px;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 0px;
+    padding-bottom: 40px;
+}
+
+.about-text{
+    
+    margin-left:40px;
+    margin-right:40px;
+    font-size:1.8em;
+    line-height:2em;
+      font-family: 'Raleway', sans-serif;
+    }
+
+.blocker {
+
+    width: 133px;
+    height: 10px;
+    background-color: purple;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.articlesbg{
+    background-color: #f5f5f5;
+}
+
+.article-title h3{
+     font-size:2.0em;
+    font-family: 'Raleway', sans-serif;
+     font-weight:800;
+  color:#3c1f68;
+    
+}
+
+h4 {
+
+    font-size: 1.6em;
+    font-family: raleway;
+    font-weight: 400;
+
+}
+
+.date{
+   letter-spacing: 2px;
+    font-size: 0.8em;
+
+}
+
+.readmore{
+    color: #a19ba6;
+    font-size: 0.9em;
+   margin-bottom: 30px; 
 }
